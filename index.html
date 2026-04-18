@@ -198,7 +198,7 @@
     font-size: 40px;
         justify-content: center;
     -webkit-font-smoothing: none;
-    color: #980701;background-color: #faf7bd;">
+    color: #980701;background-color: #ede10042;">
                 World of Pooja</h1>
             <div class="container_left">
                 <section id="cards">
@@ -214,7 +214,7 @@
                             </div>
                             <div class="collection-link">
                                 <span>Arjun Namkeen Mixture Chiwda</span>
-                                ➜
+                               
                             </div>
                         </a>
                     </div>
@@ -231,7 +231,7 @@
                             </div>
                             <div class="collection-link">
                                 <span>Kabeer Special Mixture Chiwda</span>
-                                ➜
+                               
                             </div>
                         </a>
                     </div>
@@ -248,7 +248,7 @@
                             </div>
                             <div class="collection-link">
                                 <span>Mitha Pooja Namkeen Chiwda</span>
-                                ➜
+                               
                             </div>
                         </a>
                     </div>
@@ -265,7 +265,7 @@
                             </div>
                             <div class="collection-link">
                                 <span>Pooja Lasun Makai Chiwda</span>
-                                ➜
+                               
                             </div>
                         </a>
                     </div>
@@ -282,7 +282,7 @@
                             </div>
                             <div class="collection-link">
                                 <span>Pooja Farali Chiwda</span>
-                                ➜
+                               
                             </div>
                         </a>
                     </div>
@@ -1483,7 +1483,7 @@
                 margin: auto;
             }
 
-            .timeline::after {
+            /* .timeline::after {
             content: '';
             position: absolute;
             width: 6px;
@@ -1492,7 +1492,7 @@
             bottom: 8px;
             left: 50%;
             transform: translateX(-50%);
-        }
+        } */
 
             /* Timeline item */
           .timeline-item {
@@ -1774,24 +1774,52 @@
 
 /* ================== 425px ================== */
 @media (min-width: 320px) and (max-width: 426px){
+    .container_left {
+    padding: 10px 0;
+}
+    .footer-logo img {
+    width: 98px;
+    margin-bottom: 11px;
+    border-radius: 16px;
+}
+
     .chip {
     width: 23px;
 }
+.collection-link {
+           font-size: 11px;
+        height: 20px;
+}
 .world {
     font-size: 20px !important;
+    /* gap: 10px; */
+    padding: 10px;
 }
     .timeline-item.right {
-    left: 44%;
+    left: 0%;
+}
+.timeline {
+    padding: 0px;
 }
 .slide img {
-    height: 139px;
+    height: 193px;
 }
     circle {
     display: none;
 }
     .timeline-content {
-    width: 130px;
-    padding: 16px !important;
+    width: 277px;
+    margin-left: -4px;
+    /* padding: 16px !important; */
+}
+button.absolute.right-5.top-1\/2.-translate-y-1\/2.bg-white\/30.px-3.py-2.rounded-full.text-white {
+    display: none;
+}
+button.absolute.left-5.top-1\/2.-translate-y-1\/2.bg-white\/30.px-3.py-2.rounded-full.text-white {
+    display: none;
+}
+.timeline::after {
+    display: none;
 }
     .timeline-content h3 {
     font-size: 15px;
@@ -1810,9 +1838,11 @@
     display: block;
 }
    .packet-tilt {
-    width: 187px !important;
-    /* left: 170px !important; */
-    /* top: 23px !important; */
+    width: 158px !important;
+    left: 122px !important;
+    transform: rotate(
+359deg) !important;
+    top: 67px !important;
 }
 .newsletter button {
     width: 29%;
@@ -1828,6 +1858,16 @@
 }
 h2.choose.text-4xl.font-bold.mb-12.aos-init.aos-animate {
     font-size: large;
+    margin-bottom: 1px;
+}
+.testimonial-section {
+    padding: 3px;
+}
+section#why-us {
+    padding: 4px;
+}
+.section1 {
+    padding: 27px 3px;
 }
 .crispy-title {
     font-size: 20px;
@@ -1856,9 +1896,14 @@ h2.choose.text-4xl.font-bold.mb-12.aos-init.aos-animate {
     padding: 14px 14px;
 }
     .ratlami {
-    gap: 300px !important;
+    gap: 190px !important;
 }
-
+.social-icons {
+    margin-left: 222px;
+    display: block;
+    padding: 0px;
+    gap: 10px;
+}
   .contact-content {
     height: 306px !important;
     padding: 0px;
@@ -1870,10 +1915,10 @@ h2.choose.text-4xl.font-bold.mb-12.aos-init.aos-animate {
 }
 .packet-main {
     /* position: absolute; */
-    width: 202px;
-    left: 45px;
+    width: 171px;
+    left: -21px;
     /* right: 36px; */
-    top: -70px;
+    top: 0px;
 }
 .contact-title {
     font-size: 27px;
